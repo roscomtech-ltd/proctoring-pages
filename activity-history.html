@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Тестирование</title>
+    <title>История активности</title>
 
     <link rel="stylesheet" href="./css/libs.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -96,11 +96,11 @@
         <div class="content__top">
             <div class="content__top-start">
                 <h2 class="content__subtitle">
-                    Аттестуемый
+                    Личный кабинет
                 </h2>
                 
                 <h1 class="content__title">
-                    Тестирование
+                    История активности
                 </h1>
 
                 <h3 class="content__text">
@@ -152,7 +152,7 @@
                         </a>
                     </li>
 
-                    <li class="content__item active">
+                    <li class="content__item">
                         <a href="./testing-list.html" class="content__link">
                             Тестирование
                         </a>
@@ -177,73 +177,119 @@
 
         <div class="content__bottom">
 
-            <h4>
-                Тестирование начнется
-            </h4>
-
-            <div class="testing-list">
-
-                <div class="testing-list__item">
-                    <div class="testing-list__start">
-                        <div class="testing-list__col">
-                            <div class="testing-list__subtitle">
-                                Дата
-                            </div>
-
-                            <div class="testing-list__title">
-                                20 июля 2022
-                            </div>
-                        </div>
-
-                        <div class="testing-list__col">
-                            <div class="testing-list__subtitle">
-                                Время
-                            </div>
-
-                            <div class="testing-list__title">
-                                15:00
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testing-list__end">
-                        <a href="./testing-question.html" class="button">
-                            Начать тестирование
-                        </a>
-                    </div>
+<div class="diagram">
+    <div class="diagram__top">
+        <div class="diagram__top-start">
+            <div class="diagram__start-elem">
+                <div class="diagram__elem-title">
+                    Количество правильных ответов 
                 </div>
 
-                <div class="testing-list__item">
-                    <div class="testing-list__start">
-                        <div class="testing-list__col">
-                            <div class="testing-list__subtitle">
-                                Дата
-                            </div>
-
-                            <div class="testing-list__title">
-                                20 июля 2022
-                            </div>
-                        </div>
-
-                        <div class="testing-list__col">
-                            <div class="testing-list__subtitle">
-                                Время
-                            </div>
-
-                            <div class="testing-list__title">
-                                15:00
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testing-list__end">
-                        <a href="./testing-question.html" class="button">
-                            Начать тестирование
-                        </a>
-                    </div>
+                <div class="diagram__elem-value">
+                    62%
                 </div>
-
             </div>
+
+            <div class="diagram__start-elem">
+                <div class="diagram__elem-title">
+                    Средня оценка за год
+                </div>
+
+                <div class="diagram__elem-value">
+                    4
+                </div>
+            </div>
+        </div>
+
+        <div class="diagram__top-end">
+            <div class="diagram__end-info">
+                <div class="diagram__info-elem">
+                    правильные ответы
+                </div>
+
+                <div class="diagram__info-elem diagram__info-elem_badge-accent">
+                    неправильные ответы
+                </div>
+            </div>
+
+            <select class="diagram__end-select">
+                <option value="2024">2024 год</option>
+                <option value="2023">2023 год</option>
+                <option value="2022">2022 год</option>
+                <option value="2021">2021 год</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="diagram-canvas">
+        <canvas id="diagram"></canvas>
+    </div>
+
+    <div class="diagram__body">
+        <table class="table diagram__table">
+            <thead>
+                <tr>
+                  <th>Название</th>
+                  <th>Оценка</th>
+                  <th>Дата</th>
+                  <th>Правильные ответы</th>
+                  <th>Неправильные ответы</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>1 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+                <tr>
+                    <td>2 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+                <tr>
+                    <td>3 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+                <tr>
+                    <td>4 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+                <tr>
+                    <td>5 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+                <tr>
+                    <td>6 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
 
         </div>
     </div>

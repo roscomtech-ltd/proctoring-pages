@@ -177,73 +177,19 @@
 
         <div class="content__bottom">
 
-            <h4>
-                Тестирование начнется
-            </h4>
+<div class="testing-checked">
+    <h3 class="testing-checked__title">
+        Чтобы начать тестирование, вам необходимо показать ваш паспорт перед камерой, держа его рядом с вашим лицом
+    </h3>
 
-            <div class="testing-list">
+    <h4 class="testing-checked__subtitle">
+        Это нужно для искусственного интеллекта, чтобы отслеживать нарушения в ходе тестирования.
+    </h4>
 
-                <div class="testing-list__item">
-                    <div class="testing-list__start">
-                        <div class="testing-list__col">
-                            <div class="testing-list__subtitle">
-                                Дата
-                            </div>
-
-                            <div class="testing-list__title">
-                                20 июля 2022
-                            </div>
-                        </div>
-
-                        <div class="testing-list__col">
-                            <div class="testing-list__subtitle">
-                                Время
-                            </div>
-
-                            <div class="testing-list__title">
-                                15:00
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testing-list__end">
-                        <a href="./testing-question.html" class="button">
-                            Начать тестирование
-                        </a>
-                    </div>
-                </div>
-
-                <div class="testing-list__item">
-                    <div class="testing-list__start">
-                        <div class="testing-list__col">
-                            <div class="testing-list__subtitle">
-                                Дата
-                            </div>
-
-                            <div class="testing-list__title">
-                                20 июля 2022
-                            </div>
-                        </div>
-
-                        <div class="testing-list__col">
-                            <div class="testing-list__subtitle">
-                                Время
-                            </div>
-
-                            <div class="testing-list__title">
-                                15:00
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testing-list__end">
-                        <a href="./testing-question.html" class="button">
-                            Начать тестирование
-                        </a>
-                    </div>
-                </div>
-
-            </div>
+    <div class="testing-checked__image">
+        <img src="./images/decor/testing-checked.jpg" alt="">
+    </div>
+</div>
 
         </div>
     </div>
@@ -258,3 +204,19 @@
     <script src="./js/main.js"></script>
 </body>
 </html>
+
+<div class="popup active" id="info">
+    <div class="popup__body">
+        <div class="popup__content">
+            <div class="popup__title">
+                Успешно
+            </div>
+
+            <div class="popup__subtitle">
+                Можно приступать к тестированию
+            </div>
+
+            <button type="button" class="popup__close button" id="popup-close">Начать</button>
+        </div>
+    </div>
+</div>

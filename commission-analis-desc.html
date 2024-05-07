@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Анализ</title>
+
+    <link rel="stylesheet" href="./css/libs.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__inner">
+                        <div class="header__start">
+                            
+                                <div class="header__wrapper">
+                                    <button class="header__burger">
+                                        <span></span>
+                                    </button>
+        
+                                    <div class="header__text">
+                                        Добро пожаловать в личный кабинет аттестуемого
+                                    </div>
+                                </div>
+                            
+    
+                            
+    
+                            
+                        </div>
+    
+                        <div class="header__end">
+                            
+    
+                            
+                                <div class="header__wrapper">
+                                    <form method="get" class="search header__search">
+                                        <button type="submit" class="search__button"></button>
+                                        <input type="text" class="search__input" placeholder="поиск">
+                                    </form>
+        
+                                    <div class="notifications">
+                                        <button type="button" class="notifications__button notifications__button_red"></button>
+                                        <div class="notifications__list">
+                                            <a href="#" class="notifications__item">
+                                                Тест №02 не пройден
+                                            </a>
+        
+                                            <a href="#" class="notifications__item">
+                                                Тест №01 пройден
+                                            </a>
+                                        </div>
+                                    </div>
+        
+                                    <a href="./profile.html" class="profile-badge">
+                                        <div class="profile-badge__img">
+                                            <img src="./images/content/profile-badge.jpg" alt="">
+                                        </div>
+        
+                                        <div class="profile-badge__text">
+                                            Иванов И.И.
+                                        </div>
+                                    </a>
+                                </div>
+                            
+                        </div>
+                    </div>
+
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li>
+                                <a href="./support.html" class="header__link">
+                                    Техническая поддержка
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a href="./" class="header__link">
+                                    Выход
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+
+<section class="content">
+    <div class="content__body">
+        <div class="content__top">
+            <div class="content__top-start">
+                <h2 class="content__subtitle">
+                    Личный кабинет
+                </h2>
+                
+                <h1 class="content__title">
+                    Анализ
+                </h1>
+
+                <h3 class="content__text">
+                    Иванов Иван Иванович, 30 лет
+                </h3>
+            </div>
+
+            
+                <div class="content__top-end">
+                    
+                        <a href="#" class="button">
+                            Правила&nbsp;тестирования
+                        </a>
+
+                        <a href="#" class="button">
+                            История&nbsp;активности
+                        </a>
+                    
+
+                    
+                </div>
+            
+        </div>
+
+        <div class="content__menu">
+            <ul class="content__list">
+                
+                    <li class="content__item">
+                        <a href="./profile.html" class="content__link">
+                            Профиль пользователя
+                        </a>
+                    </li>
+
+                    <li class="content__item">
+                        <a href="./schedule.html" class="content__link">
+                            Расписание тестирования
+                        </a>
+                    </li>
+
+                    <li class="content__item">
+                        <a href="./materials.html" class="content__link">
+                            Тестовые материалы
+                        </a>
+                    </li>
+
+                    <li class="content__item">
+                        <a href="#" class="content__link">
+                            Видеозаписи и аудиозаписи
+                        </a>
+                    </li>
+
+                    <li class="content__item">
+                        <a href="./testing-list.html" class="content__link">
+                            Тестирование
+                        </a>
+                    </li>
+
+                    <li class="content__item">
+                        <a href="./testing-result.html" class="content__link">
+                            Результаты теста
+                        </a>
+                    </li>
+
+                    <li class="content__item">
+                        <a href="./support.html" class="content__link">
+                            Поддержка
+                        </a>
+                    </li>
+                
+
+                
+            </ul>
+        </div>
+
+        <div class="content__bottom">
+
+<div class="testing-result">
+    <div class="testing-result__tabs">
+        <button type="button" class="testing-result__tab testing-result__tab_right" tab="tab1" id="right">
+            Правильные ответы
+        </button>
+
+        <button type="button" class="testing-result__tab testing-result__tab_wrong active" tab="tab1" id="wrong">
+            Неправильные ответы
+        </button>
+    </div>
+
+    <div class="testing-result__wrapper">
+        <div class="testing-result__elem" tab-content="tab1" id="right">
+            <div class="result-table">
+                <div class="result-table__top">
+                    Правильные ответы
+                </div>
+
+                <div class="result-table__wrapper">
+                    <div class="result-table__elem result-table__elem_green">
+                        <div class="result-table__elem-title">
+                            Название билета № 12 
+                        </div>
+
+                        <a href="#" class="result-table__elem-link">
+                            Посмотреть
+                        </a>
+                    </div>
+
+                    <div class="result-table__elem result-table__elem_green">
+                        <div class="result-table__elem-title">
+                            Название билета № 12 
+                        </div>
+
+                        <a href="#" class="result-table__elem-link">
+                            Посмотреть
+                        </a>
+                    </div>
+
+                    <div class="result-table__elem result-table__elem_green">
+                        <div class="result-table__elem-title">
+                            Название билета № 12 
+                        </div>
+
+                        <a href="#" class="result-table__elem-link">
+                            Посмотреть
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testing-result__counter">
+                <div class="testing-result__counter-elem">
+                    Правильных ответов 35
+                </div>
+
+                <div class="testing-result__counter-elem">
+                    Неправильные ответы 5
+                </div>
+            </div>
+        </div>
+
+        <div class="testing-result__elem active" tab-content="tab1" id="wrong">
+            <div class="result-table">
+                <div class="result-table__top">
+                    Не правильные ответы
+                </div>
+
+                <div class="result-table__wrapper">
+                    <div class="result-table__elem result-table__elem_green">
+                        <div class="result-table__elem-title">
+                            Название билета № 12 
+                        </div>
+
+                        <a href="#" class="result-table__elem-link">
+                            Посмотреть
+                        </a>
+                    </div>
+
+                    <div class="result-table__elem result-table__elem_green">
+                        <div class="result-table__elem-title">
+                            Название билета № 12 
+                        </div>
+
+                        <a href="#" class="result-table__elem-link">
+                            Посмотреть
+                        </a>
+                    </div>
+
+                    <div class="result-table__elem result-table__elem_green">
+                        <div class="result-table__elem-title">
+                            Название билета № 12 
+                        </div>
+
+                        <a href="#" class="result-table__elem-link">
+                            Посмотреть
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testing-result__counter">
+                <div class="testing-result__counter-elem">
+                    Правильных ответов 35
+                </div>
+
+                <div class="testing-result__counter-elem">
+                    Неправильные ответы 5
+                </div>
+            </div>
+
+            <h3 class="testing-result__title">
+                Результат тестирования искуственного интеллекта 
+            </h3>
+
+            <div class="result-table">
+                <div class="result-table__top">
+                    Не правильные ответы
+                </div>
+
+                <div class="result-table__wrapper">
+                    <div class="result-table__elem result-table__elem_red">
+                        <div class="result-table__elem-title">
+                            Взгляд в сорону
+                        </div>
+
+                        <a href="#" class="result-table__elem-link">
+                            Посмотреть скриншот нарушения
+                        </a>
+                    </div>
+
+                    <div class="result-table__elem result-table__elem_red">
+                        <div class="result-table__elem-title">
+                            Взгляд наверх
+                        </div>
+
+                        <a href="#" class="result-table__elem-link">
+                            Посмотреть скриншот нарушения
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="testing-result__bottom">
+        <div class="testing-result__bottom-start">
+            Результат тестирования будет известен через паручасов после проверки членом комисси
+        </div>
+
+        <div class="testing-result__bottom-end">
+            <a href="" class="testing-result__bottom-button">
+                Написать в поддержку
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="diagram">
+    <h3 class="diagram__title">
+        Статистика 
+    </h3>
+
+    <div class="diagram__top">
+        <div class="diagram__top-start">
+            <div class="diagram__start-elem">
+                <div class="diagram__elem-title">
+                    Количество правильных ответов 
+                </div>
+
+                <div class="diagram__elem-value">
+                    62%
+                </div>
+            </div>
+
+            <div class="diagram__start-elem">
+                <div class="diagram__elem-title">
+                    Средня оценка за год
+                </div>
+
+                <div class="diagram__elem-value">
+                    4
+                </div>
+            </div>
+        </div>
+
+        <div class="diagram__top-end">
+            <div class="diagram__end-info">
+                <div class="diagram__info-elem">
+                    правильные ответы
+                </div>
+
+                <div class="diagram__info-elem diagram__info-elem_badge-accent">
+                    неправильные ответы
+                </div>
+            </div>
+
+            <select class="diagram__end-select">
+                <option value="2024">2024 год</option>
+                <option value="2023">2023 год</option>
+                <option value="2022">2022 год</option>
+                <option value="2021">2021 год</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="diagram-canvas">
+        <canvas id="diagram"></canvas>
+    </div>
+
+    <div class="diagram__body">
+        <table class="table diagram__table">
+            <thead>
+                <tr>
+                  <th>Название</th>
+                  <th>Оценка</th>
+                  <th>Дата</th>
+                  <th>Правильные ответы</th>
+                  <th>Неправильные ответы</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>1 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+                <tr>
+                    <td>2 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+                <tr>
+                    <td>3 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+                <tr>
+                    <td>4 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+                <tr>
+                    <td>5 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+                <tr>
+                    <td>6 тест</td>
+                    <td>4</td>
+                    <td>02.11</td>
+                    <td>35</td>
+                    <td>5</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="grade-certifed">
+    <h3 class="grade-certifed__title">
+        Оценка аттестуемого
+    </h3>
+
+    <div class="grade-certifed__wrapper">
+        <div class="grade-certifed__elem">
+            <div class="grade-certifed__elem-title">
+                Председателя комиссии
+            </div>
+ 
+            <div class="grade-certifed__elem-subtitle">
+                Иванова Марина Ивановна
+            </div>
+
+            <div class="grade-certifed__elem-end">
+                <div class="grade-certifed__elem-value">
+                    Оценка 4
+                </div>
+            </div>
+        </div>
+
+        <div class="grade-certifed__elem">
+            <div class="grade-certifed__elem-title">
+                Члена комисси
+            </div>
+ 
+            <div class="grade-certifed__elem-subtitle">
+                Иванов Виктор Иванович
+            </div>
+
+            <div class="grade-certifed__elem-end">
+                <a href="#" class="grade-certifed__elem-button button">
+                    Оценит
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+
+    <script src="./js/libs.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
