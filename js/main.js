@@ -39,23 +39,6 @@ if(document.querySelector('#calendar')) {
     });
     calendar.init();
 }
-if (document.querySelector('#diagram')) {
-    new Chart(document.querySelector('#diagram'), {
-        type: 'bar',
-        data: {
-            labels: ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'],
-            datasets: [{
-                label: '# of Votes',
-                data: [1, 2, 1, 2, 3, 4, 4, 5, 3, 5, 2, 3],
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false
-    
-        }
-    }); 
-}
 document.addEventListener('DOMContentLoaded', () => {
     if(document.querySelector('.popup__close')) {
         document.querySelector('.popup__close').addEventListener('click', (el) => {

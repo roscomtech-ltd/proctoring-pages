@@ -373,6 +373,7 @@ button:focus-visible {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    row-gap: 15px;
 }
 .advantages__elem {
     display: -webkit-box;
@@ -1705,6 +1706,18 @@ button:focus-visible {
     .profile-badge__text {
         display: none;
     }
+    .index-page__title {
+        font-size: 24px;
+    }
+    .advantages {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .advantages__elem:not(:last-child) {
+        border-right: 0;
+    }
     .content__top {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -1800,6 +1813,9 @@ button:focus-visible {
     }
 }
 @media (max-width: 992px) {
+    .index-page__end {
+        display: none;
+    }
     .testing-list__item {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
